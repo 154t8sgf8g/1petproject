@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/bg2.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+    padding: 35px 0;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    
+}
+
+.content h1 {
+    font-size: 56px;
+    margin-top: -100px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+input {
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    margin-bottom: px;
+}
+
+select {
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+}
+
+.test {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.blogbtns {
+    margin-top: 50px;
+}
+
+.btnblog {
+    width: 420px;
+    height: 100px;
+    margin: 25px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: gray;
+}
+
+.btnblog a {
+    text-decoration: none;
+    color: white;
+}
+
+#idealcdn {
+    width: 1365px;
+}
+
+.search {
+    margin-top: 40px;
+    text-align: center;
+}
+
+ul li {
+    margin: 50px;
+}
